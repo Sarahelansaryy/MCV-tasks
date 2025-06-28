@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+  color: #fafafa;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #27a776;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #000000;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.sitename {
+  margin-left: 8px;
+}
+.navmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navmenu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navmenu ul li {
+  position: relative;
+}
+
+.navmenu a {
+  padding: 10px 15px;
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navmenu a:hover,
+.navmenu .active {
+  color: #ffffff;
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+.dropdown > ul,
+.dropdown .dropdown > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  min-width: 180px;
+  z-index: 99;
+}
+
+.dropdown:hover > ul {
+  display: block;
+}
+
+.dropdown ul a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown ul a:hover {
+  color: #ffffff;
+}
+
+.header-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.header-social-links a {
+  font-size: 18px;
+  color: #ffffff;
+}
+.header-social-links a :hover {
+  color: #27a776;
+}
+
+.hero {
+  padding: 100px 0;
+  text-align: center;
+  background: #1111;
+  color: #ffffff;
+}
+
+.hero h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.underlight {
+  background: #27a776;
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
+.button-link {
+  margin-top: 50px;
+  display: inline-block;
+  background: #27a776;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.button-link:hover {
+  background: rgba(39, 167, 118, 0.5);
+}
+.gallery {
+  padding: 60px 0;
+  background: #000000;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #1a1a1a;
+}
+
+.gallery-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.gallery-item:hover .gallery-links {
+  opacity: 1;
+}
+
+.gallery-links a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.footer {
+  background: #1a1a1a;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.navmenugallery {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+nav ol li + li {
+  padding-left: 10px;
+}
+nav ol li + li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: rgba(39, 167, 118, 0.5);
+}
+.contact.section {
+  padding: 60px 0;
+  background: #000;
+  color: #ffffff;
+}
+
+.info-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.info-item {
+  flex: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.info-item i {
+  font-size: 24px;
+  color: #27a776;
+  border: 2px solid #27a776;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.info-item i:hover {
+  background-color: #27a776;
+  color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row .form-control {
+  flex: 2;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #27a776;
+}
+
+.submit-btn {
+  align-self: flex-start;
+  background: #27a776;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.submit-btn:hover {
+  background: #1a1a1a;
+}
