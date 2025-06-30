@@ -65,7 +65,7 @@ class Program
             string[] taskFiles = Directory.GetFiles(folderPath, "*.txt");
             Array.Sort(taskFiles);
 
-            Console.WriteLine("\n===== File Menu =====");
+            Console.WriteLine("\n****File Menu ****");
             Console.WriteLine("1. Choose existing file");
             Console.WriteLine("2. Add new file");
             Console.Write("Enter your choice (1 or 2): ");
