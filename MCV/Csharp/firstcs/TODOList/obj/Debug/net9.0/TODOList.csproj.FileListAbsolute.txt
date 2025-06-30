@@ -1,0 +1,15 @@
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\bin\Debug\net9.0\TODOList.exe
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\bin\Debug\net9.0\TODOList.deps.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\bin\Debug\net9.0\TODOList.runtimeconfig.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\bin\Debug\net9.0\TODOList.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\bin\Debug\net9.0\TODOList.pdb
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.AssemblyInfoInputs.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.AssemblyInfo.cs
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.sourcelink.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\refint\TODOList.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.pdb
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\TODOList.genruntimeconfig.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\firstcs\TODOList\obj\Debug\net9.0\ref\TODOList.dll
