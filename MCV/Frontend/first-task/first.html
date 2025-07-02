@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>from_task</title>
+  </head>
+  <style></style>
+  <body>
+    <form
+      style="
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+      "
+    >
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" required /><br />
+      <label for="phone_number">Phone number:</label><br />
+      <input type="text" id="phone_number" name="phone_number" required /><br />
+      <label for="preferred">Preferred contact method</label>
+      <br />
+      <span id="radio_buttons" style="display: inline-flex; gap: 20px">
+        <label
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          Phone
+          <input type="radio" name="preferred_contact" value="phone" required />
+        </label>
+        <label
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          Email
+          <input type="radio" name="preferred_contact" value="email" required />
+        </label> </span
+      ><br />
+      <span id="checkbox_buttons" style="display: inline-flex; gap: 20px">
+        <label
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          web
+          <input type="checkbox" name="services" value="web" required />
+        </label>
+        <label
+          style="display: flex; flex-direction: column; align-items: center"
+          >java
+          <input type="checkbox" name="services" value="java" required />
+        </label>
+        <label
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          hoisting
+          <input type="checkbox" name="services" value="hoisting" required />
+        </label> </span
+      ><br />
+      <label class="dropdown-select">
+        City
+        <select
+          name="city"
+          id="city"
+          style="
+            padding: 0 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <option value="cairo">cairo</option>
+          <option value="giza">giza</option>
+        </select> </label
+      ><br />
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

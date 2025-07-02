@@ -1,0 +1,35 @@
+li.nav-item a {
+  color: #ffffff !important;
+}
+i,
+.underlight {
+  color: #27a776 !important;
+}
+a.dropdown-item :hover {
+  color: #1a1a1a;
+}
+
+i.link-success:hover {
+  color: #19dc91 !important;
+}
+ul.dropdown-menu li a:hover {
+  background-color: #1a1a1a !important;
+  color: white !important;
+}
+.custom-caption {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  font-size: large;
+  transform: translate(-50%, -50%) !important;
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  padding: 1rem 2rem !important;
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-caption {
+    font-size: small !important;
+  }
+}
