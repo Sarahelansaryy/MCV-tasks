@@ -1,0 +1,15 @@
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\bin\Debug\net9.0\todoapp.exe
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\bin\Debug\net9.0\todoapp.deps.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\bin\Debug\net9.0\todoapp.runtimeconfig.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\bin\Debug\net9.0\todoapp.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\bin\Debug\net9.0\todoapp.pdb
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.AssemblyInfoInputs.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.AssemblyInfo.cs
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.sourcelink.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\refint\todoapp.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.pdb
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\todoapp.genruntimeconfig.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Thirdcs\todoapp\obj\Debug\net9.0\ref\todoapp.dll

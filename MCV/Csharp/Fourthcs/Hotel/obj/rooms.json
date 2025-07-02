@@ -1,0 +1,22 @@
+[
+  {
+    "RoomNumber": 1,
+    "Capacity": 4,
+    "IsAvailable": true
+  },
+  {
+    "RoomNumber": 2,
+    "Capacity": 2,
+    "IsAvailable": true
+  },
+  {
+    "RoomNumber": 3,
+    "Capacity": 3,
+    "IsAvailable": true
+  },
+  {
+    "RoomNumber": 4,
+    "Capacity": 1,
+    "IsAvailable": true
+  }
+]

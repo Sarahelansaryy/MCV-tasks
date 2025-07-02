@@ -1,0 +1,15 @@
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.AssemblyInfoInputs.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.AssemblyInfo.cs
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.sourcelink.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\bin\Debug\net9.0\Hotel.exe
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\bin\Debug\net9.0\Hotel.deps.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\bin\Debug\net9.0\Hotel.runtimeconfig.json
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\bin\Debug\net9.0\Hotel.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\bin\Debug\net9.0\Hotel.pdb
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\refint\Hotel.dll
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.pdb
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\Hotel.genruntimeconfig.cache
+C:\Users\ibrah\VsCode\New folder\MCV-tasks\MCV\Csharp\Fourthcs\Hotel\obj\Debug\net9.0\ref\Hotel.dll
