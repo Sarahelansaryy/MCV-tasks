@@ -1,0 +1,113 @@
+i,
+.underlight {
+  color: rgb(29, 29, 150) !important;
+}
+a.dropdown-item :hover {
+  color: rgb(29, 29, 150) !important;
+}
+
+ul.dropdown-menu li a:hover {
+  background-color: rgb(29, 29, 150) !important;
+  color: #ffffff;
+}
+
+.custom {
+  position: absolute !important;
+  top: 30% !important;
+  left: 50% !important;
+  font-size: large;
+  transform: translate(-50%, -50%) !important;
+  color: rgb(12, 12, 61) !important;
+  background-color: white !important;
+  padding: 1rem 2rem !important;
+  border-radius: 10px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(12, 12, 61) !important;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.btn-link:hover {
+  background-color: rgb(29, 29, 150) !important;
+}
+body {
+  display: flex;
+}
+.gallery-item {
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(12, 12, 61);
+  opacity: 0;
+  /* transition: 0.3s ease; */
+}
+
+/* .gallery-item:hover .gallery-links {
+  opacity: 1;
+} */
+.frontier {
+  width: 100%;
+  min-height: 30vh;
+  position: relative;
+  padding: 120px 0 60px 0;
+  display: flex;
+  align-items: center;
+}
+
+.frontier img {
+  width: 100%;
+}
+
+.gallery-links a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .frontier {
+    padding-bottom: 10px !important;
+  }
+  .frontier img {
+    height: 50% !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: small;
+    }
+
+    .frontier h5 {
+      margin-top: 100px;
+      font-size: large;
+    }
+    .card {
+      gap: 5px;
+    }
+    .frontier button {
+    }
+    .frontier button a {
+      font-size: medium;
+    }
+  }
+}

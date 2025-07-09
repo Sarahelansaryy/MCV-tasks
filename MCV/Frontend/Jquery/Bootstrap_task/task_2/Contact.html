@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https:/fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https:/cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https:/cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="task2.css" rel="stylesheet" />
+    <link href="portfolio.css"rel="stylesheet"/>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black fixed-top">
+      <div class="container-fluid">
+        <i class="bi bi-camera ms-3 fs-3" style="color: #ffffff"></i>
+        <a class="navbar-brand ps-3" href="#" style="color: #ffffff"
+          >PhotoFolio</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="task2.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="Gallery.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li>
+                  <a class="dropdown-item" href="#">Nature</a>
+                </li>
+                <li><a class="dropdown-item" href="#">People</a></li>
+                <li><a class="dropdown-item" href="#">Architecture</a></li>
+                <li><a class="dropdown-item" href="#">Sports</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-social-links">
+          <a href="#" class="twitter"
+            ><i class="bi bi-twitter-x link-success"></i
+          ></a>
+          <a href="#" class="facebook"
+            ><i class="bi bi-facebook link-success"></i
+          ></a>
+          <a href="#" class="instagram"
+            ><i class="bi bi-instagram link-success"></i
+          ></a>
+          <a href="#" class="linkedin"
+            ><i class="bi bi-linkedin link-success"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h2>
+            <h2>Contact</h2>
+              <p >Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            </div>
+      </section>
+
+      
+        <nav class="navmenugallery">
+          <div class="gallery-menu">
+            <ol>
+              <li><a href="task2.html">Home</a></li>
+              <li class="current">Contact</li>
+            </ol>
+          </div>
+        </nav>
+
+      <section id="contact" class="contact section">
+     <div class="container">
+
+  
+    <div class="info-wrap">
+      <div class="info-item">
+        <i class="bi bi-geo-alt"></i>
+        <div>
+          <h3>Location</h3>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <i class="bi bi-telephone"></i>
+        <div>
+          <h3>Call</h3>
+          <p>+1 5589 55488 55</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <i class="bi bi-envelope"></i>
+        <div>
+          <h3>Email</h3>
+          <p>info@example.com</p>
+        </div>
+      </div>
+    </div>
+
+    <form method="post" class="contact-form container">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    </div>
+    <div class="col-md-6">
+      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-12">
+      <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-12">
+      <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 text-end d-flex align-items-center justify-content-center">
+      <button type="submit" class="   btn text-white  bg-success ">Send Message</button>
+    </div>
+  </div>
+</form>
+
+  </div>
+</section>
+
+
+  </main>
+
+    <footer class="footer">
+      
+        <p>© <strong>PhotoFolio</strong> All Rights Reserved</p>
+     
+     
+    </footer>
+  </body>
+</html>
